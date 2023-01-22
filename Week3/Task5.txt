@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+main(){
+
+ float charge;
+float time;
+float result;
+
+cout<<"Enter Charge: ";
+cin >> charge;
+cout << "Enter time: ";
+cin>>time;
+
+result=charge/time;
+cout<<"Area is "<<result;
+
+
+
+
+
+}

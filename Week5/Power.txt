@@ -1,0 +1,44 @@
+#include <iostream>
+#include <windows.h>
+#include <cmath>
+
+using namespace std;
+
+
+int add(int,int);
+
+main(){
+
+	int num1,num2,result,result1,result2,result3;
+
+cout<<"Enter 1st number: ";
+cin>>num1;
+
+cout<<"Enter 2nd number: ";
+cin>>num2;
+	
+	system("cls");
+
+	result1=add(num1,num2);
+	cout<<"Answer :"<<result<<endl;
+
+	result2=max(num1,num2);
+
+	cout<<result2<<" is greater"<<endl;
+	
+	result3=min(num1,num2);
+
+	cout<<result3<<" is Smaller"<<endl;
+	
+	result4=pow(num1,num2);
+	cout<<"Power is: ";
+	
+	}
+
+
+int add(int num1,int num2){
+
+	int sum = num1+num2;
+	return sum;
+
+	}

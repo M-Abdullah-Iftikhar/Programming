@@ -1,0 +1,39 @@
+#include <iostream>
+using namespace std;
+
+float totalIncome(string, int, int);
+
+main()
+{
+    float incomeT;
+    string screen;
+    int r, c;
+    cout << "Enter Type of screen: ";
+    cin >> screen;
+
+    cout << "Enter Number of Rows: ";
+    cin >> r;
+    cout << "Enter Number of Columns: ";
+    cin >> c;
+
+    incomeT=totalIncome(screen,r,c);
+
+    cout<<endl;
+    cout<<incomeT;
+
+}
+
+float totalIncome(string screen, int r, int c){
+
+    int seats = r*c;
+    if(screen == "premium"){
+        return seats*12;
+    }
+        if(screen == "normal"){
+        return seats*7.5;
+    }
+        if(screen == "discount"){
+        return seats*5;
+    }
+
+}

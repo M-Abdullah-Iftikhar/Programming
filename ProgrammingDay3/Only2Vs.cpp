@@ -1,0 +1,43 @@
+#include <iostream>
+using namespace std;
+
+
+main(){
+   
+int num1;
+int num2;
+
+    cout<<"Enter 1st Number: ";
+    cin>>num1; 
+    cout<<"Enter 2nd Number: ";
+    cin>>num2;
+    
+    num1=num1+num2;
+
+    cout<<"Enter 3rd Number: ";
+    cin>>num2;
+
+    num1=num1+num2;
+  
+    cout<<"Enter 4th Number: ";
+    cin>>num2;
+
+    num1=num1+num2;
+
+    cout<<"Enter 5th Number: ";
+    cin>>num2;
+
+    num1=num1+num2;
+
+    cout<<"Result: "<<num1;
+
+
+   
+   
+  
+ 
+
+  
+
+   
+}

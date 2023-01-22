@@ -1,0 +1,27 @@
+#include <iostream>
+#include <windows.h>
+#include <cmath>
+
+using namespace std;
+
+
+
+
+
+main(){
+	
+	system("cls");
+	float a=5,b=6,c=1;
+
+	float result1, result2;
+
+	result1=(-b+sqrt((b*b)-4ac))/2*a;
+	result2=(-b-sqrt((b*b)-4ac))/2*a;
+
+	cout<<"Answer 1: "<<result1<<endl;
+	cout<<"Answer 2: "<<result2;
+	
+
+
+
+	}

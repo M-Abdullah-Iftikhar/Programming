@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+main(){
+
+ float length;
+float width;
+
+cout<<"Enter Length: ";
+cin >> length;
+cout << "Enter Width: ";
+cin>>width;
+
+cout<<"Area is "<<length*width;
+
+
+
+
+
+}

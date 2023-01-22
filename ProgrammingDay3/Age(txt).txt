@@ -1,0 +1,35 @@
+#include <iostream>
+using namespace std;
+
+
+main(){
+   
+   int year;
+   int month;
+   int days;
+
+   float totalD;
+   float totalY;
+
+
+   cout<<"Enter your age year: ";
+   cin>>year;
+   
+   cout<<"Enter your age month: ";
+   cin>>month;
+ 
+   cout<<"Enter your age days: ";
+   cin>>days;
+
+   totalD=(month*30)+days;
+
+    totalY=totalD/365;
+
+   cout<<"Your Age is: "<<(year+totalY);
+
+ 
+
+  
+
+   
+}

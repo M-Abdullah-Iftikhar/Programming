@@ -1,0 +1,59 @@
+#include <iostream>
+using namespace std;
+
+main()
+{
+    char type, day;
+    float minutes;
+    float price;
+
+    cout << "Enter which type of costumer you are(Residenteal or premium): ";
+    cin >> type;
+
+    cout << "Enter time of day('D' for day & 'N' for night): ";
+    cin >> day;
+
+    cout << "Enter number of minutes you use your service: ";
+    cin >> minutes;
+
+    if (type == 'p' && day == 'D' && minutes > 75)
+    {
+        minutes = minutes - 75;
+        price = minutes * 0.1;
+        price = price + 25;
+    }
+	else if (type == 'p' && day == 'D' && minutes <= 75)
+    {
+        price=25;
+    }
+
+    else if (type == 'p' && day == 'N' && minutes > 100)
+    {
+        minutes = minutes - 100;
+        price = minutes * 0.05;
+        price = price + 25;
+    }
+	else if (type == 'p' && day == 'N'  && minutes <= 100)
+    {
+        price=25;
+    }
+    else if (type == 'r' && day == 'D' && minutes > 75)
+    {
+        minutes = minutes - 75;
+        price = minutes * 0.1;
+    }
+
+    else if (type == 'r' && minutes > 50)
+    {
+        minutes = minutes - 50;
+        price = minutes * 0.1;
+        price = price + 10;
+    } else if (type == 'r' && minutes <= 50){
+	price=10;
+	}
+    else
+    {
+        cout << "0";
+    }
+    cout << price;
+}

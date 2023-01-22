@@ -1,0 +1,34 @@
+#include <iostream>
+using namespace std;
+
+
+
+void limit(float);
+
+main(){
+	float speed;
+
+	cout<<"Enter speed";
+	cin>>speed;
+
+	
+}
+
+	
+	
+} 
+
+
+void limit(float speed){
+
+	if (speed>100){
+	cout<<"Halt....YOU WILL BE CHALLANED!!!";
+	}
+
+
+	if (speed<=100){
+	cout<<"Perfect! You're going good";
+	}
+
+
+}

@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+void digits();
+main()
+{
+    digits();
+}
+
+void digits()
+{
+    int num;
+    int num1;
+    cout<<"Enter a number: ";
+    cin>>num;
+    for(int x = 0;num<10;x++ ){
+        num1=num%10;
+        num=num1;
+    }
+    cout<<x;
+
+}

@@ -1,0 +1,26 @@
+#include <iostream>
+using namespace std;
+
+void Even(int num);
+main(){
+int num;
+
+
+cout<<"Enter a number: ";
+cin num;
+ 
+Even(num);
+
+}
+
+
+}
+
+void Even(int num){
+if(num%2==0){
+
+cout<<"Its an Even function";
+}
+if(num%!=0){
+
+cout<<"Its an odd function";}

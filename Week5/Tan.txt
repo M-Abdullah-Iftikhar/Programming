@@ -1,0 +1,26 @@
+#include <iostream>
+#include <windows.h>
+#include <cmath>
+
+using namespace std;
+
+
+
+main(){
+	
+	system("cls");
+	float resultT,result;
+
+	float angle=30/57.2958;
+	float length=43;
+
+	resultT=tan(angle);
+	
+	result=resultT*length;
+	
+	
+
+
+
+	}
+

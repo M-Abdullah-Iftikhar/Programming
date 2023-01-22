@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+
+main(){
+
+   
+   float PriceV;
+   float priceF;
+   int KGV;
+   int KGF;
+     
+   cout<<1234%10;
+  
+    
+
+
+}

@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+
+void eligible();
+main(){
+int age;
+
+while (true){
+cout<<"Enter Your Age: ";
+cin>> age;
+
+
+eligible();
+}
+
+}
+
+void eligible(){
+if(age>=18){
+cout<<"You are Eligible for vote";
+}
+if(age<18){
+cout<<"You are not eligible for vote";
+}
+}

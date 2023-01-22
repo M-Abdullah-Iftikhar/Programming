@@ -1,0 +1,41 @@
+#include <iostream>
+using namespace std;
+
+string speedo(float speed);
+
+main(){
+
+float speed;
+string result;
+
+	cout<< "Enter speed: ";	
+	cin>>speed;
+
+result = speedo(speed);
+
+	cout<<endl;
+	cout<<result;
+
+}
+
+string speedo(float speed){
+
+if (speed<10){
+return "Slow";
+} 
+
+	else if (speed>=10 && speed < 50){
+	return "average";
+} 
+	 else if (speed>=50 && speed <150){
+return "fast";
+}
+	 else if (speed>=150 && speed <1000){
+return "Ultra-Fast";
+}
+	 else if (speed>10){
+return "Extremely-Fast";
+} else {
+	return 0;
+	}
+}

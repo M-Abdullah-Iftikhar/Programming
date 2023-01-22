@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+
+main(){
+   float num1;
+   float num2;
+   float result;
+
+   cout<<"Enter 1st Number: "<<endl;
+   cin>>num1;
+   cout<<"Enter 2nd Number: "<<endl;
+   cin>>num2;
+   result=num1+num2
+   cout<<"Answer: "<<result<<endl;
+
+
+
+}

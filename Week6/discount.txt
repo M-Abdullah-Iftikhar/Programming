@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+float discount(string day, string month, float price);
+
+main(){
+	float price;
+	string month, day;
+	cout<<"Enter month: ";
+	cin >> month;
+	cout<<"Enter day: ";
+	cin >> day;
+	cout<<"Enter price: ";
+	cin >> price;
+
+	tPrice = discount(day,month,price);
+		
+	cout<<"Payable amount is: "<<tPrice;
+
+}
+
+float discount(string day, string month, float price){
+	
+	float amount;
+	if(month=="october" && day=="sunday"){
+	amount=price-(price*0.10)
+	}	else if(day=="sunday"){
+	amount=price-(price*0.05)
+	}else{
+	amount=price;
+	}
+	return amount;
+}

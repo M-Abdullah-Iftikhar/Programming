@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+main(){
+
+   int num1;
+   number=50;
+   int num2;
+    cout<<"The Number is: ";
+cout << num1;
+
+
+
+
+
+
+}

@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+main(){
+    float numberN;
+    string time;
+    float texi1, texi2, bus, train;
+
+    cout << "Enter total KMs: ";
+    cin >> numberN;
+
+    cout << "Enter Time of day: ";
+    cin >> time;
+    cout<<endl;
+
+    texi1 = (numberN * 0.79)+0.7;
+    texi2 = (numberN * 0.90)+0.7;
+
+	
+
+    if(time == "day" && numberN < 20){
+        cout<<texi1;
+
+    }
+
+    if(time == "night" && numberN < 20){
+        cout<<texi2;
+
+    }
+
+	
+
+}

@@ -1,0 +1,32 @@
+include <iostream>
+incllude (windows.h)
+using namespace std;
+
+
+void gotoxy(int x, int y){
+
+	COORD coordinates;
+	coordinates.X=x;
+	coordinates.Y=y;
+	setConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), coordinates);
+
+}
+
+
+main(){
+   gotoxyI(13,13);
+	cout<<"*";
+gotoxyI(13,13);
+	cout<<"*";
+gotoxyI(13,13);
+	cout<<"*";
+
+
+
+
+
+
+}
+
+
+

@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+main(){
+
+double mb;
+double result;
+
+
+
+cout<<"Enter MBs ";
+cin>>mb;
+result = mb*8388608;
+
+cout<<"In Bits "result;
+cout<<"";
+
+
+
+}

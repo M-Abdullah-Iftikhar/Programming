@@ -1,0 +1,59 @@
+#include <iostream>
+#include <windows.h>
+#include <cmath>
+
+using namespace std;
+
+bool evenOdd(int num);
+
+
+
+main(){
+	bool EvOd;
+	system("cls");
+	int num;
+	
+	cout<<"Enter a five digit number: ";
+	cin>>num;
+	EvOd = evenOdd(num);
+
+	if(EvOd==true){
+	
+	cout<<"Its an evenish number";
+	
+	}
+	if(EvOd==false){
+	
+	cout<<"Its not an evenish number";
+	
+	}
+	
+
+	
+	}
+
+
+bool evenOdd(int num){
+		
+	int p1,p2,p3,p4,p5;
+	int result1,result2,
+
+	p1=num%10;
+	p2=(num/10)%10;
+	p3=(num/100)%10;
+	p4=(num/1000)%10;
+	p5=(num/10000)%10;
+	
+	result1=p1+p2+p3+p4+p5;
+	
+	result2=result1%2;
+
+	if (result2==0){
+	return true;
+}
+	if (result2==0){
+	return false;
+}	
+
+
+	}
