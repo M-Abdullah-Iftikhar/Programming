@@ -12,38 +12,28 @@ main()
         for (int y = num; y > x; y--)
         {
             cout << " ";
-            
         }
-        int y = num;
-        if (y == num)
-            {
-                for (int a = 1; a <= x; a++)
-                {
-                    cout << "*";
-                }
-                cout<<endl;
-                
-            }
+
+        for (int y = 1; y <= x; y++)
+        {
+            cout << "*";
+        }
+        cout << endl;
     }
 
-        for (int x = 1; x <= num; x++)
+    for (int x = 1; x <= num; x++)
     {
         for (int y = num; y >= x; y--)
         {
             cout << "*";
-            
         }
-        cout<<endl;
-        int y = num;
-        if (y == num)
-            {
-                for (int a = 1; a <= x; a++)
-                {
-                    cout << " ";
-                }
-                
-            }
+        cout << endl;
+
+        for (int y = 1; y <= x; y++)
+        {
+            cout << " ";
+        }
     }
-    
+
     cout << endl;
 }
